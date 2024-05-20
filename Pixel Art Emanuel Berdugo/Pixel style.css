@@ -1,0 +1,64 @@
+.PixelArt{
+    width: 20px;
+    height: 20px;
+    background-color: #2B2B2B;
+
+    margin: 100px 900px;
+    font-size: 20px; /* 20px * Unidad de medida #EM (ubicar los pixeles)  */
+
+
+    /*
+#FFFDFE
+#2B2B2B
+#16fb22
+#2cae1a
+#056d00
+#066b05
+#096E31
+#086F31
+#ff790d
+#ff7c17
+#ff3015
+#fa3113
+#982103
+#9B1F15
+#A13316
+#fbbc90
+#fdd1aa
+#f8a1a9  
+    */
+
+    box-shadow: 
+    /* Línea 1*/1em 0em #2B2B2B, 2em 0em #FFFDFE,  3em 0em #2B2B2B,  4em 0em #2B2B2B
+    /* Línea 2*/,-1em 1em #2b2b2b, 0em 1em #22b602, 1em 1em #06ff1b, 2em 1em #2B2B2B, 3em 1em #2ab100, 4em 1em #11fd1d, 5em 1em #2b2b2b
+    /* Línea 3*/,-2em 2em #2b2b2b, -1em 2em #036d00, -0em 2em #1db603, 1em 2em #FFFDFE, 2em 2em #FFFDFE, 3em 2em #FFFDFE, 4em 2em #FFFDFE, 5em 2em #17fd17, 6em 2em #2B2B2B
+    /* Línea 4*/,-5em 3em #2b2b2b ,-4em 3em #2b2b2b ,-3em 3em #2b2b2b, -2em 3em #2b2b2b, -1em 3em #016f00, 0em 3em #FFFDFE,  1em 3em #FFFDFE,  2em 3em #2b2b2b, 3em 3em #FFFDFE, 4em 3em #2B2B2B, 5em 3em #FFFDFE, 6em 3em #2B2B2B
+    /* Línea 5*/,-6em 4em #2b2b2b, -5em 4em #E73829, -4em 4em #F0811B, -3em 4em #EF7D25, -2em 4em #2B2B2B, -1em 4em #FFFDFE,  0em 4em #FFFDFE, 1em 4em #FFFDFE, 2em 4em #2B2B2B, 3em 4em #FFFDFE,4em 4em #2B2B2B, 5em 4em #FFFDFE, 6em 4em #2B2B2B
+    /* Línea 6*/,-6em 5em #2B2B2B ,-5em 5em #991D15,-4em 5em #e73c2c,-3em 5em #2B2B2B,-2em 5em #2B2B2B,-1em 5em #FFFDFE, 0em 5em #FFFDFE, 1em 5em #FFFDFE, 2em 5em #FFFDFE, 3em 5em #FFFDFE, 4em 5em #FFFDFE, 5em 5em #FFFDFE, 6em 5em #2B2B2B, 7em 5em #2B2B2B, 8em 5em #2B2B2B
+    /* Línea 7*/,-6em 6em #2B2B2B,-5em 6em #2B2B2B,-4em 6em #2B2B2B,-3em 6em #16fc1d,-2em 6em #16fc1d,-1em 6em #016f00, 0em 6em #FFFDFE, 1em 6em #FFFDFE, 2em 6em #FFFDFE, 3em 6em #036c05, 4em 6em #FFFDFE, 5em 6em #2B2B2B, 6em 6em #0fff22, 7em 6em #0fff22, 8em 6em #0fff22, 9em 6em #2B2B2B
+    /* Línea 8*/,-7em 7em #2B2B2B,-6em 7em #ef7d1e,-5em 7em #2B2B2B,-4em 7em #0fff22,-3em 7em #0fff22,-2em 7em #FFFDFE,-1em 7em #0fff22,-0em 7em #016f00, 1em 7em #016f00 ,2em 7em #016f00, 3em 7em #0fff22,4em 7em #016f00, 5em 7em #0fff22 , 6em 7em #0fff22, 7em 7em #FFFDFE  , 8em 7em #FFFDFE, 9em 7em #0fff22, 10em 7em #2B2B2B      
+    /* Línea 9*/,-8em 8em #2B2B2B,-7em 8em #9f1b04,-6em 8em #fe311c,-5em 8em #2B2B2B,-4em 8em #27b103,-3em 8em #0bfe18,-2em 8em #0bfe18, -1em 8em #FFFDFE, 0em 8em #FFFDFE, 1em 8em #FFFDFE, 2em 8em #08ff1c, 3em 8em #23b400, 4em 8em #13fd20, 5em 8em #13fd20, 6em 8em #13fd20, 7em 8em #2B2B2B, 8em 8em #FFFDFE, 9em 8em #2B2B2B, 10em 8em #13fd20, 11em 8em #2B2B2B
+    /* Línea 10*/,-8em 9em #2B2B2B,-7em 9em #9e1d00,-6em 9em #9e1d00,-5em 9em #2B2B2B,-4em 9em #016f00,-3em 9em #28b200,-2em 9em #FFFDFE,-1em 9em #FFFDFE,0em 9em #FFFDFE,1em 9em #FFFDFE,2em 9em #28b200,3em 9em #28b200, 4em 9em #13fd20, 5em 9em #13fd20, 6em 9em #13fd20, 7em 9em #13fd20, 8em 9em #13fd20, 9em 9em #13fd20, 10em 9em #13fd20, 11em 9em #2B2B2B
+    /* Línea 11*/,-7em 10em #2B2B2B,-6em 10em #2B2B2B,-5em 10em #2B2B2B,-4em 10em #007100,-3em 10em #27b103,-2em 10em #FFFDFE,-1em 10em #FFFDFE,0em 10em #FFFDFE,1em 10em #FFFDFE,2em 10em #2b2b2b,3em 10em #29ae05,4em 10em #29ae05, 5em 10em #13fd20, 6em 10em #13fd20, 7em 10em #13fd20, 8em 10em #13fd20, 9em 10em #13fd20, 10em 10em #13fd20, 11em 10em #2B2B2B
+    /* Línea 12*/,-6em 11em #2B2B2B,-5em 11em #2B2B2B,-4em 11em #026f02,-3em 11em #007205,-2em 11em #fcbb95,-1em 11em #FFFDFE, 0em 11em #FFFDFE, 1em 11em #fcbb95, 2em 11em #2B2B2B, 3em 11em #007002, 4em 11em #27b104, 5em 11em #27b104, 6em 11em #27b104, 7em 11em #1ef52b, 8em 11em #1ef52b, 9em 11em #1ef52b, 10em 11em #27b103, 11em 11em #2B2B2B
+    /* Línea 13*/,-6em 12em #2B2B2B,-5em 12em #ea381e,-4em 12em #2B2B2B,-3em 12em #056c00,-2em 12em #056c00,-1em 12em #fcbb95, 0em 12em #fcbb95,1em 12em #2B2B2B, 2em 12em #2B2B2B, 3em 12em #007002, 4em 12em #24b502, 5em 12em #24b502, 6em 12em #24b502, 7em 12em #24b502, 8em 12em #24b502, 9em 12em #24b502, 10em 12em #24b502, 11em 12em #2B2B2B
+    /* Línea 14*/,-5em 13em #2B2B2B,-4em 13em #2B2B2B,-3em 13em #2B2B2B,-2em 13em #007300,-1em 13em #007300, 0em 13em #fcbb95, 1em 13em #fcbb95, 2em 13em #2B2B2B, 3em 13em #007002, 4em 13em #007002, 5em 13em #007002, 6em 13em #007002, 7em 13em #21b403, 8em 13em #21b403, 9em 13em #21b403, 10em 13em #2B2B2B
+    /* Línea 15*/,-5em 14em #2B2B2B,-4em 14em #ea381e,-3em 14em #2B2B2B,-2em 14em #047000,-1em 14em #23b400, 0em 14em #faa1a3, 1em 14em #fcbb95, 2em 14em #FFFDFE, 3em 14em #2B2B2B, 4em 14em #007002, 5em 14em #007002, 6em 14em #007002, 7em 14em #007002, 8em 14em #2B2B2B, 9em 14em #2B2B2B
+    /* Línea 16*/,-8em 15em #2B2B2B,-7em 15em #2B2B2B,-6em 15em #2B2B2B,-5em 15em #2B2B2B,-4em 15em #2B2B2B,-3em 15em #046e00,-2em 15em #24b500,-1em 15em #24b500, 0em 15em #ffa5a4, 1em 15em #ffa5a4, 2em 15em #2B2B2B, 3em 15em #2B2B2B, 4em 15em #2B2B2B, 5em 15em #2B2B2B, 6em 15em #2B2B2B, 7em 15em #2B2B2B
+    /* Línea 17*/,-9em 16em #2B2B2B,-8em 16em #ff771d,-7em 16em #FFFDFE,-6em 16em #2B2B2B,-5em 16em #2B2B2B,-4em 16em #2B2B2B,-3em 16em #046e00,-2em 16em #24b500,-1em 16em #FFFDFE, 0em 16em #FFFDFE, 1em 16em #FFFDFE,2em 16em #2B2B2B, 3em 16em #2B2B2B, 4em 16em #2B2B2B
+    /* Línea 18*/,-11em 17em #2B2B2B,-10em 17em #2B2B2B,-9em 17em #ff771d,-8em 17em #ff771d,-7em 17em #2B2B2B,-6em 17em #2B2B2B,-5em 17em #0eff1a,-4em 17em #0eff1a,-3em 17em #0eff1a,-2em 17em #0eff1a,-1em 17em #FFFDFE,0em 17em #FFFDFE,1em 17em #FFFDFE, 2em 17em #2B2B2B, 3em 17em #FFFDFE, 4em 17em #17fb1e, 5em 17em #2B2B2B
+    /* Línea 19*/,-13em 18em #2B2B2B,-12em 18em #2B2B2B,-11em 18em #2B2B2B,-10em 18em #FFFDFE,-9em 18em #2B2B2B,-8em 18em #2B2B2B,-7em 18em #29b202,-6em 18em #29b202,-5em 18em #14ff28,-4em 18em #14ff28,-3em 18em #2B2B2B,-2em 18em #FFFDFE,-1em 18em #FFFDFE, 0em 18em #FFFDFE, 1em 18em #FFFDFE, 2em 18em #2B2B2B, 3em 18em #2B2B2B, 3em 18em #FFFDFE, 4em 18em #FFFDFE, 5em 18em #08ff1c, 6em 18em #2B2B2B
+    /* Línea 20*/,-13em 19em #2B2B2B,-12em 19em #0eff18,-11em 19em #23b400,-10em 19em #2B2B2B,-9em 19em #2B2B2B,-8em 19em #0aff15,-7em 19em #0aff15,-6em 19em #0aff15,-5em 19em #0aff15,-4em 19em #2B2B2B,-3em 19em #FFFDFE,-2em 19em #FFFDFE,-1em 19em #FFFDFE, 0em 19em #FFFDFE, 1em 19em #FFFDFE, 2em 19em #2B2B2B, 3em 19em #2B2B2B, 4em 19em #2B2B2B, 5em 19em #0aff15, 6em 19em #2B2B2B
+    /* Línea 21*/,-13em 20em #2B2B2B,-12em 20em #FFFDFE,-11em 20em #037000,-10em 20em #2B2B2B,-9em 20em #10ff19,-8em 20em #10ff19,-7em 20em #10ff19,-6em 20em #FFFDFE,-5em 20em #FFFDFE,-4em 20em #12fc1d,-3em 20em #2B2B2B,-2em 20em #FFFDFE,-1em 20em #FFFDFE, 0em 20em #FFFDFE, 1em 20em #FFFDFE,2em 20em #2B2B2B,3em 20em #2B2B2B, 4em 20em #18fb27, 5em 20em #18fb27, 6em 20em #2B2B2B
+    /* Línea 22*/,-13em 21em #2B2B2B,-12em 21em #FFFDFE,-11em 21em #FFFDFE,-10em 21em #2B2B2B,-9em 21em #25b300,-8em 21em #19fd20,-7em 21em #19fd20,-6em 21em #FFFDFE,-5em 21em #FFFDFE,-4em 21em #2B2B2B,-3em 21em #2B2B2B,-2em 21em #FFFDFE,-1em 21em #FFFDFE, 0em 21em #FFFDFE, 1em 21em #2B2B2B, 2em 21em #2B2B2B, 3em 21em #11fd21, 4em 21em #11fd21, 5em 21em #11fd21, 6em 21em #2B2B2B
+    /* Línea 23*/,-12em 22em #2B2B2B,-11em 22em #fdd1ac,-10em 22em #2B2B2B,-9em 22em #016e05,-8em 22em #28b100,-7em 22em #19fa24,-6em 22em #19fa24,-5em 22em #19fa24,-4em 22em #19fa24,-3em 22em #2B2B2B,-2em 22em #FFFDFE,-1em 22em #FFFDFE, 0em 22em #FFFDFE, 1em 22em #2B2B2B, 2em 22em #2B2B2B, 3em 22em #11fd1f, 4em 22em #11fd1f, 5em 22em #11fd1f, 6em 22em #2B2B2B
+    /* Línea 24*/,-12em 23em #2B2B2B,-11em 23em #fdd1ac,-10em 23em #FFFDFE,-9em 23em #2B2B2B,-8em 23em #036e04,-7em 23em #23b304,-6em 23em #23b304,-5em 23em #23b304,-4em 23em #2B2B2B,-3em 23em #FFFDFE,-2em 23em #FFFDFE,-1em 23em #fdd1ae, 0em 23em #2B2B2B, 1em 23em #2B2B2B, 2em 23em #2B2B2B, 3em 23em #2B2B2B, 4em 23em #2B2B2B, 5em 23em #2B2B2B
+    /* Línea 25*/,-11em 24em #2B2B2B,-10em 24em #2B2B2B,-9em 24em #2B2B2B,-8em 24em #2B2B2B,-7em 24em #2B2B2B,-6em 24em #2B2B2B,-5em 24em #2B2B2B,-4em 24em #fed1aa,-3em 24em #fed1aa,-2em 24em #fed1aa,-1em 24em #feb990, 0em 24em #2B2B2B
+    /* Línea 26*/,-11em 25em #2B2B2B,-10em 25em #a13101,-9em 25em #f6520a,-8em 25em #f69208,-7em 25em #f69208,-6em 25em #2B2B2B,-5em 25em #feb990,-4em 25em #feb990,-3em 25em #2B2B2B,-2em 25em #2B2B2B,-1em 25em #2B2B2B
+    /* Línea 27*/,-11em 26em #2B2B2B,-10em 26em #a13101,-9em 26em #f6520a,-8em 26em #f69208,-7em 26em #f69208,-6em 26em #2B2B2B,-5em 26em #2B2B2B,-4em 26em #2B2B2B,-3em 26em #f69208,-2em 26em #2B2B2B,-1em 26em #2B2B2B, 0em 26em #2B2B2B
+    /* Línea 28*/,-12em 27em #2B2B2B,-11em 27em #a43000,-10em 27em #a43000,-9em 27em #a43000,-8em 27em #f6520a,-7em 27em #FFFDFE,-6em 27em #f69208,-5em 27em #2B2B2B,-4em 27em #a43000,-3em 27em #f75200,-2em 27em #f49500,-1em 27em #f49500, 0em 27em #FFFDFE, 1em 27em #2B2B2B
+    /* Línea 29*/,-12em 28em #2B2B2B,-11em 28em #a43000,-10em 28em #a43000,-9em 28em #f6520a,-8em 28em #f69208,-7em 28em #f69208,-6em 28em #f69208,-5em 28em #2b2b2b,-4em 28em #a43000,-3em 28em #a43000,-2em 28em #f1550b,-1em 28em #f1550b, 0em 28em #f49500, 1em 28em #2B2B2B
+    /* Línea 30*/,-12em 29em #2B2B2B,-11em 29em #2B2B2B,-10em 29em #2B2B2B,-9em 29em #2B2B2B,-8em 29em #2B2B2B,-7em 29em #2B2B2B,-6em 29em #2B2B2B,-5em 29em #2B2B2B,-4em 29em #2B2B2B,-3em 29em #2B2B2B,-2em 29em #2B2B2B,-1em 29em #2B2B2B, 0em 29em #2B2B2B, 1em 29em #2B2B2B 
+
+    ;
+}
